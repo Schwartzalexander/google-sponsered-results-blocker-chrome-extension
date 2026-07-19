@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sponsored Results Blocker</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <img src="icons/icon-48.png" alt="" width="40" height="40">
+        <div>
+          <h1>Sponsored Results Blocker</h1>
+          <p>Removes sponsored blocks and optional Google search feature sections.</p>
+        </div>
+      </div>
+
+      <h2>Ads</h2>
+
+      <label class="toggle-row">
+        <span>Block sponsored products</span>
+        <input id="blockSponsoredProducts" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Block sponsored results</span>
+        <input id="blockSponsoredResults" type="checkbox" role="switch">
+      </label>
+
+      <h2>Search features</h2>
+
+      <label class="toggle-row">
+        <span>Hide AI overview</span>
+        <input id="blockAiOverview" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Hide discussions and forums</span>
+        <input id="blockDiscussions" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Hide images</span>
+        <input id="blockImages" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Hide videos</span>
+        <input id="blockVideos" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Hide short videos</span>
+        <input id="blockShortVideos" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Hide People also ask</span>
+        <input id="blockPeopleAlsoAsk" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Hide related searches</span>
+        <input id="blockRelatedSearches" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Hide top stories</span>
+        <input id="blockTopStories" type="checkbox" role="switch">
+      </label>
+
+      <label class="toggle-row">
+        <span>Hide shopping, product, and place sections</span>
+        <input id="blockShoppingSites" type="checkbox" role="switch">
+      </label>
+
+      <p class="note">Ad blockers are enabled by default. Search feature filters are off by default. If you turn one off after content was already removed, reload the Google results page to show it again.</p>
+      <button id="reloadPage" class="reload-button" type="button">Reload current page</button>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
