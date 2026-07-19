@@ -8,6 +8,12 @@ Google Sponsored Results Blocker is a lightweight browser extension for people w
 
 The extension works locally in your browser. It does not collect, transmit, sell, or share browsing data, search queries, page content, personal information, or analytics.
 
+## Single Purpose
+
+The single purpose of this extension is to clean up Google Search result pages by hiding selected sponsored and optional Google Search feature sections. All functionality in the extension directly supports this purpose: detecting supported Google Search sections, removing them locally from the visible page, saving the user's on/off preferences, and reloading the current page after settings change.
+
+The extension does not provide unrelated features and does not modify websites outside of this page-cleanup purpose.
+
 ## Features
 
 - Blocks sponsored products by default.
